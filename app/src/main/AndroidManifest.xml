@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lld.stopcoro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MaterialTheme">
+        <activity
+            android:name=".Gender">
+            <intent-filter>
+                <action android:name=".Gender" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Precaution"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name=".Precaution" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".YouHavecorona"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name=".YouHavecorona" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LiklyToKoro"
+            android:hardwareAccelerated="false">
+            <intent-filter>
+                <action android:name=".LiklyToKoro" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CANPrform">
+            <intent-filter>
+                <action android:name=".CANPrform" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".FatalDiagnost">
+            <intent-filter>
+                <action android:name=".FatalDiagnost" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".HavingSymptoms">
+
+            <intent-filter>
+                <action android:name=".HavingSymptons" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NoSymptoms">
+
+            <intent-filter>
+                <action android:name=".NoSymptoms" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SympDiagnostic">
+
+            <intent-filter>
+                <action android:name=".SympDiagnostic" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CheckupIntro">
+
+            <intent-filter>
+                <action android:name=".CheckupIntro" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HavingSymptoms">
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.0" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.85" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="1.0" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            style="@style/Flag"
+            app:srcCompat="@drawable/flag" />
+
+        <TextView
+            android:id="@+id/havingtxt"
+            style="@style/AppLink"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="522dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline26"
+        app:layout_constraintVertical_bias="0.454">
+
+        <Switch
+            style="@style/AppSwtich"
+            android:layout_marginTop="30dp"
+            android:text="@string/difficulties_in_breathing_or_shortness_of_breath" />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/loss_of_speech_sore_throat"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/sore_throat"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/chest_pain"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/head_aches"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/diarrhea"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/conjunctivitis"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/loss_of_taste_or_smell"
+             />
+
+        <Switch
+            style="@style/AppSwtich"
+            android:text="@string/a_rash_on_skin_or_discoloration_of_fingers_or_toes"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline28"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline27"
+        app:layout_constraintVertical_bias="0.448">
+
+        <Button
+            android:id="@+id/butback"
+            style="@style/BackButton"
+            />
+
+        <Button
+            android:id="@+id/butcont"
+            style="@style/ContButton" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

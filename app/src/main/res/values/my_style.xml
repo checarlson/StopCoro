@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppLink">
+        <item name="android:autoLink">web</item>
+        <item name="android:textColor">#5B71EC</item>
+        <item name="android:textColorLink">#3854F1</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginStart">1dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center|top|end</item>
+        <item name="android:paddingBottom">7dp</item>
+        <item name="android:text">@string/www_stoporo_com</item>
+    </style>
+
+    <style name="APPButton">   <!-- Parent style -->
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="background">#EC4848</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textColor">#FAF1EEEE</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="BackButton" parent="APPButton">    <!-- This style inherit AppButton styles -->
+        <item name="android:drawableTop">@android:drawable/ic_menu_revert</item>
+        <item name="android:drawingCacheQuality">high</item>
+        <item name="android:text">@string/back</item>
+        <item name="background">@drawable/round_corner</item>
+    </style>
+
+    <style name="ContButton" parent="APPButton"> <!-- Style inherited from parent -->
+        <item name="android:drawableTop">@drawable/ic_arrow_forward_white_18dp</item>
+        <item name="android:text">@string/contin</item>
+        <item name="background">@drawable/round_corner</item>
+    </style>
+
+    <style name="ImageButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppSwtich">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:textColor">#0B0A0A</item>
+        <item name="android:textSize">21sp</item>
+        <item name="android:layout_marginStart">5dp</item>
+        <item name="android:layout_marginEnd">1dp</item>
+    </style>
+
+    <style name="Flag">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:contentDescription">@string/todo</item>
+    </style>
+
+</resources>
